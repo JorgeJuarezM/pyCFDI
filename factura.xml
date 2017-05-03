@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante LugarExpedicion="COLIMA,COL. MEXICO" Moneda="PESOS" TipoCambio="1" certificado="MIIEYTCCA0mgAwIBAgIUMjAwMDEwMDAwMDAyMDAwMDE0MzcwDQYJKoZIhvcNAQEFBQAwggFcMRowGAYDVQQDDBFBLkMuIDIgZGUgcHJ1ZWJhczEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSkwJwYJKoZIhvcNAQkBFhphc2lzbmV0QHBydWViYXMuc2F0LmdvYi5teDEmMCQGA1UECQwdQXYuIEhpZGFsZ28gNzcsIENvbC4gR3VlcnJlcm8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQRGlzdHJpdG8gRmVkZXJhbDESMBAGA1UEBwwJQ295b2Fjw6FuMTQwMgYJKoZIhvcNAQkCDCVSZXNwb25zYWJsZTogQXJhY2VsaSBHYW5kYXJhIEJhdXRpc3RhMB4XDTEzMDUwNzE3NDAwN1oXDTE3MDUwNzE3NDAwN1owgdsxKTAnBgNVBAMTIEFDQ0VNIFNFUlZJQ0lPUyBFTVBSRVNBUklBTEVTIFNDMSkwJwYDVQQpEyBBQ0NFTSBTRVJWSUNJT1MgRU1QUkVTQVJJQUxFUyBTQzEpMCcGA1UEChMgQUNDRU0gU0VSVklDSU9TIEVNUFJFU0FSSUFMRVMgU0MxJTAjBgNVBC0THEFBQTAxMDEwMUFBQSAvIEhFR1Q3NjEwMDM0UzIxHjAcBgNVBAUTFSAvIEhFR1Q3NjEwMDNNREZOU1IwODERMA8GA1UECxMIcHJvZHVjdG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJ4COACtDKzGDv9V0W3LN508rc2eICyi5g3SsGrJE1Z49cJngFuR6DgXWUO85Tu/NG3r4aXOvZs6bGG6dEG7Dcb1aC5dkF+yI6PlHKsiTk5ntJ/aETA/rckVyb9cmeCh4Mqfo0OGxMmsEzxUl7qm3onv2ldmk6pJmSIQGTHzMZYbAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQDWG+0Soy5vxmclDKOrvyHjAbQGk4BPynbCjOWeFZ5s7HOpw6TSSe56R33n/ZO2CvC4/ICwrNgl+drycfU5ZA5d3TflsO9jgTBsDSq5LDJ9h062IadD8o4Mg5BTb1C2FAiMD16DHwxVgYZvk2wmXQ0mrxLoMu2wiBpbvwoXJlOiociUxXQtlukmjzmeTovu1XTDd50gbztYBHIdjOpAjXmmytwrwNGmWG+D3Jfjhtydy1GSOTtN+hGElYg71vLNFekJyEkc4pkWORG0xmwRf/rnoSFjHyk/5duRUth6GEvQEfwAlZIn7rsttGzubLO9QY5BM6P3km98mPt7NnV/SSxo" descuento="0" fecha="2017-01-31T16:58:51" folio="1" formaDePago="PAGO EN UNA SOLA EXHIBICION" metodoDePago="NO IDENTIFICADO" noCertificado="20001000000200001437" sello="SeMiigzFGeKHTceN78273EnoyJMp0JjJC3vpdKGUBZv2VF7/qRQ+GAFVsWNoMplkpUlF3rzxS1Uivv2F4KN4SAiu3cciDT9N6Owrjof4LDW+HTeJrWfayCECZOXa4FG2iglqoVN8WGKyG9SYo/I6ol6sfRWprAl2W+9e4rEmFSk=" serie="A" subTotal="385.72" tipoDeComprobante="ingreso" total="447.44" version="3.2" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd">
+  <cfdi:Emisor nombre="ASOCIACION DE AGRICULTORES DEL DISTRITO DE RIEGO 004 DN MARTIN" rfc="AAA010101AAA">
+    <cfdi:DomicilioFiscal calle="CARLOS B. ZETINA" codigoPostal="55348" colonia="PARQUE INDUSTRIAL XALOSTOC" estado="MEXICO" municipio="ECATEPEC DE MORELOS" noExterior="80" pais="MEXICO"/>
+    <cfdi:RegimenFiscal Regimen="sdfasdf"/>
+  </cfdi:Emisor>
+  <cfdi:Receptor nombre="ABA SEGUROS, S.A. DE C.V." rfc="ABA920310QW0">
+    <cfdi:Domicilio calle="LOPEZ COTILLA" codigoPostal="44140" colonia="OBRERA" estado="JALISCO" municipio="GUADALAJARA" noInterior="1889" pais="MEXICO"/>
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1" descripcion="PIEDRA" importe="385.72" unidad="M3" valorUnitario="385.72"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="61.72">
+    <cfdi:Traslados>
+      <cfdi:Traslado importe="61.72" impuesto="IVA" tasa="16"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+</cfdi:Comprobante>
